@@ -13,11 +13,11 @@ import { toast } from "sonner"
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [formData, setFormData] = useState({
-    name: "Rajesh",
-    email: "rajest@gmail.com",
-    phone: "9101151011",
-    subject: "test",
-    message: "test",
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
   })
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
