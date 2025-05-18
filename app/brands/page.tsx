@@ -50,8 +50,7 @@ export default function BrandsPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/ridge1.png"
-                  
+                  src="/Ridge1.png"
                   alt="Ridge Eyewear product 1"
                   className="w-full h-full object-cover"
                 />
