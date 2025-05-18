@@ -110,21 +110,22 @@ export default function ContactPage() {
                   <MapPin className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <p className="font-medium">Address</p>
-                    <p className="text-gray-500">DG Lifestyle, New Delhi, India</p>
+                    <p className="text-gray-500">DSG 11/9 Kalkaji Near Police Station</p>
+                    <p className="text-gray-500">South Delhi, Delhi-110019</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-gray-500">+91 123 456 7890</p>
+                    <p className="text-gray-500">+91 7002479451</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-gray-500">info@dglifestyle.com</p>
+                    <p className="text-gray-500">info@dsglifestyle.com</p>
                   </div>
                 </div>
               </div>

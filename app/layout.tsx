@@ -12,7 +12,7 @@ import { CartProvider } from "@/components/cart-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DG Lifestyle - Make a Statement",
+  title: "DSG LifeStyle - Make a Statement",
   description: "Premium eyewear for the fashion-forward generation",
     generator: 'v0.dev'
 }
@@ -24,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <link rel="icon" href="/logo-removebg-preview.png" />
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <CartProvider>

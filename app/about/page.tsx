@@ -7,12 +7,12 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6">About DG Lifestyle</h1>
+        <h1 className="text-4xl font-bold mb-6">About DSG LifeStyle</h1>
 
         <div className="aspect-video overflow-hidden rounded-lg mb-8">
           <Image
             src="/placeholder.svg?height=400&width=800"
-            alt="DG Lifestyle Team"
+            alt="DSG LifeStyle Team"
             width={800}
             height={400}
             className="w-full object-cover"
@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className="prose prose-lg max-w-none">
           <h2>Our Story</h2>
           <p>
-            DG Lifestyle is a fast-growing eyewear company based in New Delhi, redefining how India sees fashion and
+            DSG LifeStyle is a fast-growing eyewear company based in New Delhi, redefining how India sees fashion and
             function. Founded with a vision to transform eyewear from a necessity into a fashion statement, we've
             quickly established ourselves as a brand that combines style, quality, and affordability.
           </p>
@@ -46,14 +46,14 @@ export default function AboutPage() {
 
           <h2>Our Mission</h2>
           <p>
-            At DG Lifestyle, our mission is to bridge the gap in India's eyewear market by offering fashionable,
+            At DSG LifeStyle, our mission is to bridge the gap in India's eyewear market by offering fashionable,
             high-quality frames at affordable prices. We believe that eyewear should be an extension of your
             personality, not just a functional necessity.
           </p>
 
           <h2>Our Vision</h2>
           <p>
-            We aim to grow Ridge Eye Wear & Elian Martin by DG Lifestyle into nationally recognized eyewear fashion
+            We aim to grow Ridge Eye Wear & Elian Martin by DSG LifeStyle into nationally recognized eyewear fashion
             brands with omnichannel presence and strong consumer loyalty. Our focus on retail expansion and customer
             experience is shaping the future of eyewear in India.
           </p>

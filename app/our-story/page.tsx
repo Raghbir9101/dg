@@ -8,14 +8,14 @@ export default function OurStoryPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/ourStory.png')",
             filter: "brightness(0.4)",
           }}
         />
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">Our Story</h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            The journey of DG Lifestyle and our passion for exceptional eyewear
+            The journey of DSG LifeStyle and our passion for exceptional eyewear
           </p>
         </div>
       </section>
@@ -27,7 +27,7 @@ export default function OurStoryPage() {
             <div className="prose prose-lg max-w-none">
               <h2>Our Beginning</h2>
               <p>
-                DG Lifestyle is a fast-growing eyewear company based in New Delhi, redefining how India sees fashion and
+                DSG LifeStyle is a fast-growing eyewear company based in New Delhi, redefining how India sees fashion and
                 function. Founded with a vision to transform eyewear from a necessity into a fashion statement, we've
                 quickly established ourselves as a brand that combines style, quality, and affordability.
               </p>
@@ -35,8 +35,8 @@ export default function OurStoryPage() {
               <div className="my-12 grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="DG Lifestyle founding team"
+                    src="/ceo.jpg"
+                    alt="DSG LifeStyle founding team"
                     width={600}
                     height={400}
                     className="rounded-lg"
@@ -73,26 +73,26 @@ export default function OurStoryPage() {
                 Germany, known for its world-class precision, engineering, and quality craftsmanship.
               </p>
 
-              <div className="my-12">
+              {/* <div className="my-12">
                 <Image
                   src="/placeholder.svg?height=400&width=1000"
-                  alt="DG Lifestyle brand showcase"
+                  alt="DSG LifeStyle brand showcase"
                   width={1000}
                   height={400}
                   className="rounded-lg"
                 />
-              </div>
+              </div> */}
 
               <h2>Our Mission</h2>
               <p>
-                At DG Lifestyle, our mission is to bridge the gap in India's eyewear market by offering fashionable,
+                At DSG LifeStyle, our mission is to bridge the gap in India's eyewear market by offering fashionable,
                 high-quality frames at affordable prices. We believe that eyewear should be an extension of your
                 personality, not just a functional necessity.
               </p>
 
               <h2>Our Vision</h2>
               <p>
-                We aim to grow Ridge Eye Wear & Elian Martin by DG Lifestyle into nationally recognized eyewear fashion
+                We aim to grow Ridge Eye Wear & Elian Martin by DSG LifeStyle into nationally recognized eyewear fashion
                 brands with omnichannel presence and strong consumer loyalty. Our focus on retail expansion and customer
                 experience is shaping the future of eyewear in India.
               </p>
@@ -128,7 +128,7 @@ export default function OurStoryPage() {
 
               <h2>Join Our Journey</h2>
               <p>
-                As we continue to grow and expand, we invite you to be a part of our journey. Experience the DG
+                As we continue to grow and expand, we invite you to be a part of our journey. Experience the DSG
                 Lifestyle difference and discover eyewear that truly reflects your unique style and personality.
               </p>
             </div>

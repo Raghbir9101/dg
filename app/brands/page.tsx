@@ -10,7 +10,7 @@ export default function BrandsPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/ourStory.png')",
             filter: "brightness(0.4)",
           }}
         />
@@ -28,7 +28,7 @@ export default function BrandsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="mb-6">
-                <img src="/placeholder.svg?height=80&width=200" alt="Ridge Eyewear logo" className="h-12" />
+                <img src="/brand1.jpg" alt="Ridge Eyewear logo" className="h-12" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ridge Eyewear</h2>
               <p className="text-gray-600 mb-6">
@@ -50,21 +50,21 @@ export default function BrandsPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/ridge1.png"
                   alt="Ridge Eyewear product 1"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/ridge2.png"
                   alt="Ridge Eyewear product 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/ridge3.png"
                   alt="Ridge Eyewear product 3"
                   className="w-full h-full object-cover"
                 />
@@ -88,14 +88,14 @@ export default function BrandsPage() {
             <div className="order-2 md:order-1 grid grid-cols-2 gap-4">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/elian1.png"
                   alt="Elian Martin product 1"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/elian2.png"
                   alt="Elian Martin product 2"
                   className="w-full h-full object-cover"
                 />
@@ -117,7 +117,7 @@ export default function BrandsPage() {
             </div>
             <div className="order-1 md:order-2">
               <div className="mb-6">
-                <img src="/placeholder.svg?height=80&width=200" alt="Elian Martin logo" className="h-12" />
+                <img src="/brand2.jpg" alt="Elian Martin logo" className="h-12" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Elian Martin</h2>
               <p className="text-gray-600 mb-6">
@@ -147,7 +147,7 @@ export default function BrandsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="mb-6">
-                <img src="/placeholder.svg?height=80&width=200" alt="Limon Eye logo" className="h-12" />
+                <img src="/placeholder.svg?height=20&width=20" alt="Limon Eye logo" className="h-12" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Limon Eye</h2>
               <p className="text-gray-600 mb-6">

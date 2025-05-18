@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="text-xl font-bold mb-4">DG LIFESTYLE</h3>
+            <h3 className="text-xl font-bold mb-4">DSG LifeStyle</h3>
             <p className="text-gray-400 mb-4">Make a Statement</p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-white">
@@ -58,34 +58,34 @@ export function SiteFooter() {
             <h3 className="text-lg font-semibold mb-4">Our Brands</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/brands/ridge-eyewear" className="text-gray-400 hover:text-white">
+                <p className="text-gray-400 hover:text-white cursor-default">
                   Ridge Eyewear
-                </Link>
+                </p>
               </li>
               <li>
-                <Link href="/brands/elian-martin" className="text-gray-400 hover:text-white">
+                <p className="text-gray-400 hover:text-white cursor-default">
                   Elian Martin
-                </Link>
+                </p>
               </li>
               <li>
-                <Link href="/brands/limon-eye" className="text-gray-400 hover:text-white">
+                <p className="text-gray-400 hover:text-white cursor-default">
                   Limon Eye
-                </Link>
+                </p>
               </li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <address className="not-italic text-gray-400">
-              <p>DG Lifestyle</p>
-              <p>New Delhi, India</p>
-              <p className="mt-2">Email: info@dglifestyle.com</p>
-              <p>Phone: +91 123 456 7890</p>
+              <p>11/9 Kalkaji Near Police Station</p>
+              <p>South Delhi, Delhi-110019</p>
+              <p className="mt-2">Email: info@dsglifestyle.com</p>
+              <p>Phone: +91 7002479451</p>
             </address>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} DG Lifestyle. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} DSG LifeStyle. All rights reserved.</p>
         </div>
       </div>
     </footer>

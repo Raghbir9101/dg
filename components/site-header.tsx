@@ -17,7 +17,7 @@ export function SiteHeader() {
     <header className="absolute top-0 z-50 w-full">
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold tracking-tight text-white">DG LIFESTYLE</span>
+          <span className="text-2xl font-bold tracking-tight text-white">DSG LIFESTYLE</span>
           <span className="text-xs tracking-widest text-white/70">INDIA PVT. LTD</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-8">
@@ -47,6 +47,15 @@ export function SiteHeader() {
             )}
           >
             Brands
+          </Link>
+          <Link
+            href="/our-ngo"
+            className={cn(
+              "text-sm font-medium text-white hover:text-white/80 transition-colors",
+              pathname === "/our-ngo" && "border-b-2 border-white pb-1",
+            )}
+          >
+            Our NGO
           </Link>
           {/* <Link
             href="/products"
