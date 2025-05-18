@@ -51,6 +51,7 @@ export default function BrandsPage() {
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
                   src="/ridge1.png"
+                  
                   alt="Ridge Eyewear product 1"
                   className="w-full h-full object-cover"
                 />
