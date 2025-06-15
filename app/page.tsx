@@ -113,7 +113,7 @@ export default function Home() {
               <div className="text-lg text-gray-300">Metro Cities to Tier 2 & 3 Towns</div>
             </div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-              From high streets in Mumbai to emerging markets across India, DG Lifestyle is redefining eyewear retail
+              From high streets in Mumbai to emerging markets across India, DSG Lifestyle is redefining eyewear retail
               with style, sustainability, and innovation. Our ever-growing network ensures that fashion-forward,
               customer-centric eyewear solutions are never far from reach.
             </p>
