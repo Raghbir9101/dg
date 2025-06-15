@@ -40,40 +40,38 @@ export default function BrandsPage() {
                 Our Ridge collection features cutting-edge designs that combine style with functionality, ensuring you
                 not only look good but also enjoy exceptional comfort and durability.
               </p>
-              <Button asChild className="px-8">
-                <Link href="/products/ridge-eyewear">
-                  Explore Ridge Collection
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/Ridge1.png"
+                  src="/ridge1.jpg"
                   alt="Ridge Eyewear product 1"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/ridge2.png"
+                  src="/ridge2.jpg"
                   alt="Ridge Eyewear product 2"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/ridge3.png"
+                  src="/ridge3.jpg"
                   alt="Ridge Eyewear product 3"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/ridge4.jpg"
                   alt="Ridge Eyewear product 4"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
             </div>
@@ -90,28 +88,32 @@ export default function BrandsPage() {
                 <img
                   src="/elian1.png"
                   alt="Elian Martin product 1"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
                   src="/elian2.png"
                   alt="Elian Martin product 2"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/elian3.jpg"
                   alt="Elian Martin product 3"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/elian4.jpg"
                   alt="Elian Martin product 4"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
+                  style={{ mixBlendMode: "multiply" }}
                 />
               </div>
             </div>
@@ -130,12 +132,6 @@ export default function BrandsPage() {
                 and longevity. Our designs draw inspiration from classic styles while incorporating modern elements for
                 a contemporary twist.
               </p>
-              <Button asChild className="px-8">
-                <Link href="/products/elian-martin">
-                  Explore Elian Martin Collection
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
             </div>
           </div>
         </div>
@@ -144,11 +140,8 @@ export default function BrandsPage() {
       {/* Limon Eye */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="mb-6">
-                <img src="/placeholder.svg?height=20&width=20" alt="Limon Eye logo" className="h-12" />
-              </div>
+          <div className="flex gap-12 justify-center items-center">
+            <div className="w-[50%]">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Limon Eye</h2>
               <p className="text-gray-600 mb-6">
                 German precision engineering and quality craftsmanship in every frame. As the exclusive Pan India
@@ -158,14 +151,12 @@ export default function BrandsPage() {
                 Limon Eye is renowned for its attention to detail, innovative designs, and use of premium materials.
                 Each frame undergoes rigorous quality control to ensure it meets the highest standards of excellence.
               </p>
-              <Button asChild className="px-8">
-                <Link href="/products/limon-eye">
-                  Explore Limon Eye Collection
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
+              <Link href="https://www.limoneye.com/" target="_blank" className="inline-flex items-center hover:underline">
+                Explore Limon Eye
+                <ArrowRight className="ml-2" />
+              </Link>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            {/* <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
                 <img
                   src="/placeholder.svg?height=400&width=400"
@@ -194,7 +185,7 @@ export default function BrandsPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -27,7 +27,7 @@ export default function NGOPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Commitment to Society</h2>
             <p className="text-lg text-gray-600">
-              At DSG LifeStyle, we believe success means nothing if it doesn't uplift others. That's why we created Ramya
+              At DG Lifestyle, we believe success means nothing if it doesn't uplift others. That's why we created Ramya
               Foundation—our heartfelt commitment to vision, dignity, and a sustainable Bharat.
             </p>
           </div>
@@ -172,7 +172,7 @@ export default function NGOPage() {
               <div className="flex items-center p-4 bg-emerald-50 rounded-lg border border-emerald-100 mb-6">
                 <Recycle className="h-8 w-8 text-emerald-600 mr-4 flex-shrink-0" />
                 <p className="text-emerald-800">
-                  <strong>Drop-off points:</strong> You can donate your old eyewear at any DSG LifeStyle store or
+                  <strong>Drop-off points:</strong> You can donate your old eyewear at any DG Lifestyle store or
                   authorized collection center.
                 </p>
               </div>
@@ -187,7 +187,7 @@ export default function NGOPage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Promise: A Sustainable Bharat</h2>
           <p className="text-xl max-w-3xl mx-auto mb-8">
             Ramya Foundation goes beyond charity. It's a movement toward a more circular, conscious, and caring India.
-            As DSG LifeStyle grows, our foundation will scale its impact—delivering vision, dignity, and opportunity to
+            As DG Lifestyle grows, our foundation will scale its impact—delivering vision, dignity, and opportunity to
             every corner of the nation.
           </p>
           <blockquote className="text-2xl italic font-light max-w-2xl mx-auto mb-8">
@@ -257,56 +257,68 @@ export default function NGOPage() {
       {/* Get Involved */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Involved</h2>
-            <p className="text-lg text-gray-600">
-              There are many ways you can support the Ramya Foundation and help us make a difference.
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Recycle Your Old Specs, Gift Someone the Gift of Vision
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Got old spectacles at home? Drop them off at any optical store and help someone in need see the world more
+              clearly.
             </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4">Donate</h3>
-                <p className="text-gray-600 mb-6">
-                  Your financial contribution helps us sponsor more surgeries and provide eyewear to those in need.
-                </p>
-                {/* <Button className="w-full">Make a Donation</Button> */}
-              </CardContent>
-            </Card>
+            <div className="bg-white rounded-lg p-8 shadow-lg mb-8">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="text-left">
+                  <h3 className="text-2xl font-bold mb-4">How It Works</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm">
+                        1
+                      </div>
+                      <p className="text-gray-600">Bring your old spectacles to any optical store</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm">
+                        2
+                      </div>
+                      <p className="text-gray-600">We'll refurbish and distribute them to those in need</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm">
+                        3
+                      </div>
+                      <p className="text-gray-600">Get an exclusive 10% discount on your next eyewear purchase!</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                  <img
+                    src="/placeholder.svg?height=400&width=400"
+                    alt="Recycling old spectacles"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
 
-            <Card>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4">Volunteer</h3>
-                <p className="text-gray-600 mb-6">
-                  Join our team of volunteers and help us organize eye camps, collection drives, and distribution
-                  events.
-                </p>
-                {/* <Button className="w-full">Become a Volunteer</Button> */}
-              </CardContent>
-            </Card>
+            <div className="bg-gradient-to-r from-primary to-primary/80 text-white rounded-lg p-8 mb-8">
+              <h3 className="text-2xl font-bold mb-4">As Our Way of Saying Thanks</h3>
+              <p className="text-xl mb-6">We'll give you an exclusive 10% discount on your next eyewear purchase!</p>
+              <div className="inline-flex items-center px-6 py-3 bg-white text-primary rounded-full font-bold text-lg">
+                10% OFF Your Next Purchase
+              </div>
+            </div>
 
-            <Card>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4">Recycle</h3>
-                <p className="text-gray-600 mb-6">
-                  Donate your old eyewear to our recycling program and help us give them a new life and purpose.
-                </p>
-                {/* <Button className="w-full">Find Drop-off Locations</Button> */}
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="mt-16 text-center">
-            <p className="text-gray-600 mb-6">
-              For corporate partnerships or to organize an eye camp in your community, please contact us.
-            </p>
-            <Button asChild size="lg">
-              <Link href="/contact">
-                Contact Us
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
+            <div className="text-center">
+              <h3 className="text-2xl font-bold mb-4">Do Good. Look Good. Feel Great.</h3>
+              <p className="text-lg text-gray-600 mb-8">Let's create a world where everyone sees better together.</p>
+              <Button asChild size="lg" className="px-8">
+                <Link href="/contact">
+                  Visit Your Nearest Store Today!
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

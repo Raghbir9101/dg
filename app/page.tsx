@@ -106,17 +106,25 @@ export default function Home() {
 
       <section className="py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Make a Statement with DSG LifeStyle</h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Join thousands of fashion-forward individuals who have chosen our premium eyewear to express their unique
-            style.
-          </p>
-          <Button asChild className="bg-white text-black hover:bg-white/90 px-8" disabled>
-            <Link href={""}>
-              Coming Soon
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-8">
+              <div className="text-5xl md:text-6xl font-bold mb-4">1800+</div>
+              <div className="text-xl md:text-2xl font-medium mb-2">Retailers</div>
+              <div className="text-lg text-gray-300">Metro Cities to Tier 2 & 3 Towns</div>
+            </div>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+              From high streets in Mumbai to emerging markets across India, DG Lifestyle is redefining eyewear retail
+              with style, sustainability, and innovation. Our ever-growing network ensures that fashion-forward,
+              customer-centric eyewear solutions are never far from reach.
+            </p>
+            <p className="text-2xl font-medium mb-8">Discover Eyewear That Fits Your Style — and Your City.</p>
+            <Button asChild className="bg-white text-black hover:bg-white/90 px-8">
+              <Link href="/contact">
+                Find Your Nearest Store
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
     </div>

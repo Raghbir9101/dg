@@ -42,11 +42,11 @@ export function SiteFooter() {
                   Brands
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/products" className="text-gray-400 hover:text-white">
                   Products
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact" className="text-gray-400 hover:text-white">
                   Contact
