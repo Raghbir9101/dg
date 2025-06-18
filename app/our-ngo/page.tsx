@@ -27,7 +27,7 @@
 //           <div className="max-w-3xl mx-auto text-center mb-16">
 //             <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Commitment to Society</h2>
 //             <p className="text-lg text-gray-600">
-//               At DG Lifestyle, we believe success means nothing if it doesn't uplift others. That's why we created Ramya
+//               At DSG Lifestyle, we believe success means nothing if it doesn't uplift others. That's why we created Ramya
 //               Foundation—our heartfelt commitment to vision, dignity, and a sustainable Bharat.
 //             </p>
 //           </div>
@@ -172,7 +172,7 @@
 //               <div className="flex items-center p-4 bg-emerald-50 rounded-lg border border-emerald-100 mb-6">
 //                 <Recycle className="h-8 w-8 text-emerald-600 mr-4 flex-shrink-0" />
 //                 <p className="text-emerald-800">
-//                   <strong>Drop-off points:</strong> You can donate your old eyewear at any DG Lifestyle store or
+//                   <strong>Drop-off points:</strong> You can donate your old eyewear at any DSG Lifestyle store or
 //                   authorized collection center.
 //                 </p>
 //               </div>
@@ -187,7 +187,7 @@
 //           <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Promise: A Sustainable Bharat</h2>
 //           <p className="text-xl max-w-3xl mx-auto mb-8">
 //             Ramya Foundation goes beyond charity. It's a movement toward a more circular, conscious, and caring India.
-//             As DG Lifestyle grows, our foundation will scale its impact—delivering vision, dignity, and opportunity to
+//             As DSG Lifestyle grows, our foundation will scale its impact—delivering vision, dignity, and opportunity to
 //             every corner of the nation.
 //           </p>
 //           <blockquote className="text-2xl italic font-light max-w-2xl mx-auto mb-8">
@@ -355,7 +355,7 @@ export default function NGOPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Commitment to Society</h2>
             <p className="text-lg text-gray-600">
-              At DG Lifestyle, we believe success means nothing if it doesn't uplift others. That's why we created Ramya
+              At DSG Lifestyle, we believe success means nothing if it doesn't uplift others. That's why we created Ramya
               Foundation—our heartfelt commitment to vision, dignity, and a sustainable Bharat.
             </p>
           </div>
@@ -449,7 +449,7 @@ export default function NGOPage() {
             <div className="flex items-center justify-center p-6 bg-emerald-50 rounded-lg border border-emerald-100 max-w-2xl mx-auto">
               <Recycle className="h-8 w-8 text-emerald-600 mr-4 flex-shrink-0" />
               <p className="text-emerald-800 text-left">
-                <strong>Drop-off points:</strong> You can donate your old eyewear at any DG Lifestyle store or
+                <strong>Drop-off points:</strong> You can donate your old eyewear at any DSG Lifestyle store or
                 authorized collection center.
               </p>
             </div>
@@ -463,7 +463,7 @@ export default function NGOPage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Promise: A Sustainable Bharat</h2>
           <p className="text-xl max-w-3xl mx-auto mb-8">
             Ramya Foundation goes beyond charity. It's a movement toward a more circular, conscious, and caring India.
-            As DG Lifestyle grows, our foundation will scale its impact—delivering vision, dignity, and opportunity to
+            As DSG Lifestyle grows, our foundation will scale its impact—delivering vision, dignity, and opportunity to
             every corner of the nation.
           </p>
           <blockquote className="text-2xl italic font-light max-w-2xl mx-auto mb-8">
