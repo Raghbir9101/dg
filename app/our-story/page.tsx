@@ -56,46 +56,36 @@ export default function OurStoryPage() {
                 </div>
               </div>
 
-              <h2>Our Brands</h2>
-              <p>We proudly own two homegrown brands:</p>
-              <ul>
-                <li>
-                  <strong>Ridge Eyewear</strong> – Bold, trend-driven designs for the fashion-forward generation. Ridge
-                  pushes boundaries with its contemporary styles and vibrant colors.
-                </li>
-                <li>
-                  <strong>Elian Martin</strong> – Premium, elegant, and timeless eyewear for the sophisticated
-                  individual. Elian Martin represents understated luxury and classic design.
-                </li>
-              </ul>
-              <p>
-                We are also the Pan India distributor for <strong>Limon Eye</strong>, a premium eyewear brand from
-                Germany, known for its world-class precision, engineering, and quality craftsmanship.
-              </p>
+              <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Brands</h2>
+              <div className="grid md:grid-cols-3 gap-8 mb-8">
+                <div className="bg-gray-50 rounded-lg p-6 flex flex-col items-center shadow hover:shadow-lg transition">
+                  {/* <Image src="/ridge1.jpg" alt="Ridge Eyewear" width={120} height={60} className="rounded mb-4" /> */}
+                  <h3 className="font-semibold text-xl mb-2 text-indigo-700">Ridge Eyewear</h3>
+                  <p className="text-center text-gray-700 text-sm">Bold, trend-driven designs for the fashion-forward generation. Ridge pushes boundaries with its contemporary styles and vibrant colors.</p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6 flex flex-col items-center shadow hover:shadow-lg transition">
+                  {/* <Image src="/elian1.png" alt="Elian Martin" width={120} height={60} className="rounded mb-4" /> */}
+                  <h3 className="font-semibold text-xl mb-2 text-amber-700">Elian Martin</h3>
+                  <p className="text-center text-gray-700 text-sm">Premium, elegant, and timeless eyewear for the sophisticated individual. Elian Martin represents understated luxury and classic design.</p>
+                </div>
+                <div className="bg-yellow-50 rounded-lg p-6 flex flex-col items-center border border-yellow-200 shadow hover:shadow-lg transition">
+                  {/* <Image src="/precision1.jpg" alt="Limon Eye" width={120} height={60} className="rounded mb-4" /> */}
+                  <h3 className="font-semibold text-xl mb-2 text-yellow-700">Limon Eye</h3>
+                  <p className="text-center text-gray-700 text-sm">Pan India distributor for Limon Eye, a premium German brand known for world-class precision, engineering, and quality craftsmanship.</p>
+                </div>
+              </div>
 
-              {/* <div className="my-12">
-                <Image
-                  src="/placeholder.svg?height=400&width=1000"
-                  alt="DSG LifeStyle brand showcase"
-                  width={1000}
-                  height={400}
-                  className="rounded-lg"
-                />
-              </div> */}
+              <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Mission</h2>
+              <div className="flex items-start gap-4 mb-8 bg-indigo-50 rounded-lg p-6">
+                <span className="text-3xl">🎯</span>
+                <p className="text-lg text-gray-800">At DSG LifeStyle, our mission is to bridge the gap in India's eyewear market by offering fashionable, high-quality frames at affordable prices. We believe that eyewear should be an extension of your personality, not just a functional necessity.</p>
+              </div>
 
-              <h2>Our Mission</h2>
-              <p>
-                At DSG LifeStyle, our mission is to bridge the gap in India's eyewear market by offering fashionable,
-                high-quality frames at affordable prices. We believe that eyewear should be an extension of your
-                personality, not just a functional necessity.
-              </p>
-
-              <h2>Our Vision</h2>
-              <p>
-                We aim to grow Ridge Eye Wear & Elian Martin by DSG LifeStyle into nationally recognized eyewear fashion
-                brands with omnichannel presence and strong consumer loyalty. Our focus on retail expansion and customer
-                experience is shaping the future of eyewear in India.
-              </p>
+              <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Vision</h2>
+              <div className="flex items-start gap-4 mb-8 bg-amber-50 rounded-lg p-6">
+                <span className="text-3xl">🌟</span>
+                <p className="text-lg text-gray-800">We aim to grow Ridge Eye Wear & Elian Martin by DSG LifeStyle into nationally recognized eyewear fashion brands with omnichannel presence and strong consumer loyalty. Our focus on retail expansion and customer experience is shaping the future of eyewear in India.</p>
+              </div>
 
               <div className="my-12 bg-gray-50 p-8 rounded-lg">
                 <h3 className="text-center mb-6">Our Values</h3>
