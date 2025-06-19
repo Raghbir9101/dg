@@ -36,8 +36,8 @@ DrawerOverlay.displayName = DrawerPrimitive.Overlay.displayName
 
 const DrawerContent = React.forwardRef<
   React.ElementRef<typeof DrawerPrimitive.Content>,
-  React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Content>
->(({ className, children, ...props }, ref) => (
+  React.ComponentPropsWithoutRef<typeof DrawerPrimitive.Content> & { title?: string }
+>(({ className, children, title = "Menu", ...props }, ref) => (
   <DrawerPortal>
     <DrawerOverlay />
     <DrawerPrimitive.Content
@@ -48,6 +48,8 @@ const DrawerContent = React.forwardRef<
       )}
       {...props}
     >
+      {/* Visually hidden title for accessibility */}
+      <DrawerPrimitive.Title className="sr-only">{title}</DrawerPrimitive.Title>
       <div className="mx-auto mt-4 h-2 w-[100px] rounded-full bg-muted" />
       {children}
     </DrawerPrimitive.Content>

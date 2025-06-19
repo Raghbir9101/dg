@@ -2,16 +2,18 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { ShoppingBag, User } from "lucide-react"
+import { ShoppingBag, User, Menu } from "lucide-react"
+import React, { useState } from "react"
 
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { useCart } from "@/components/cart-provider"
+import { Drawer, DrawerTrigger, DrawerContent } from "@/components/ui/drawer"
 
 export function SiteHeader() {
   const pathname = usePathname()
   const { cartItems } = useCart()
-  const cartItemCount = cartItems.length
+  const [drawerOpen, setDrawerOpen] = useState(false)
 
   return (
     <header className="absolute top-0 z-50 w-full">
@@ -20,6 +22,7 @@ export function SiteHeader() {
           <span className="text-2xl font-bold tracking-tight text-white">DSG LIFESTYLE</span>
           <span className="text-xs tracking-widest text-white/70">INDIA PVT. LTD</span>
         </Link>
+        {/* Desktop nav */}
         <nav className="hidden md:flex items-center space-x-8">
           <Link
             href="/"
@@ -57,15 +60,6 @@ export function SiteHeader() {
           >
             Our NGO
           </Link>
-          {/* <Link
-            href="/products"
-            className={cn(
-              "text-sm font-medium text-white hover:text-white/80 transition-colors",
-              pathname === "/products" && "border-b-2 border-white pb-1",
-            )}
-          >
-            Products
-          </Link> */}
           <Link
             href="/contact"
             className={cn(
@@ -76,6 +70,25 @@ export function SiteHeader() {
             Contact
           </Link>
         </nav>
+        {/* Hamburger for mobile */}
+        <div className="md:hidden">
+          <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
+            <DrawerTrigger asChild>
+              <Button variant="ghost" size="icon" aria-label="Open menu" className="text-white">
+                <Menu className="h-6 w-6" />
+              </Button>
+            </DrawerTrigger>
+            <DrawerContent className="bg-white p-6">
+              <nav className="flex flex-col space-y-4">
+                <Link href="/" className="text-lg font-medium" onClick={() => setDrawerOpen(false)}>Home</Link>
+                <Link href="/our-story" className="text-lg font-medium" onClick={() => setDrawerOpen(false)}>Our Story</Link>
+                <Link href="/brands" className="text-lg font-medium" onClick={() => setDrawerOpen(false)}>Brands</Link>
+                <Link href="/our-ngo" className="text-lg font-medium" onClick={() => setDrawerOpen(false)}>Our NGO</Link>
+                <Link href="/contact" className="text-lg font-medium" onClick={() => setDrawerOpen(false)}>Contact</Link>
+              </nav>
+            </DrawerContent>
+          </Drawer>
+        </div>
         {/* <div className="flex items-center space-x-4">
           <Link href="/account">
             <Button variant="ghost" size="icon" aria-label="Account" className="text-white hover:bg-white/10">
