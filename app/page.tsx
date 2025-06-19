@@ -48,10 +48,16 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
-                <img
-                  src="/precision3.jpg"
-                  alt="Crafted eyewear"
+                <video
                   className="w-full h-full object-cover"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  src={"/video.mp4"}
+                  // src="/precision3.jpg"
+                  // alt="Crafted eyewear"
+                  // className="w-full h-full object-cover"
                 />
               </div>
               {/* <div className="absolute -bottom-6 -left-6 w-2/3 aspect-video bg-gray-100 rounded-lg overflow-hidden shadow-lg">
