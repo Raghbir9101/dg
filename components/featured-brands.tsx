@@ -29,7 +29,7 @@ export function FeaturedBrands() {
   return (
     <div className="grid md:grid-cols-2 gap-8">
       {brands.map((brand) => (
-        <Link key={brand.id} href={`/brands/${brand.id}`} className="block group">
+        <div key={brand.id}  className="block group">
           <Card className="overflow-hidden border-0 shadow-lg transition-all duration-300 hover:shadow-xl">
             <div className="aspect-video overflow-hidden bg-gray-100">
               <img  style={{ filter: "brightness(0.95)" }}
@@ -45,7 +45,7 @@ export function FeaturedBrands() {
               <p className="text-gray-600 mb-4">{brand.description}</p>
             </CardContent>
           </Card>
-        </Link>
+        </div>
       ))}
     </div>
   )
