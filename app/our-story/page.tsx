@@ -87,31 +87,29 @@ export default function OurStoryPage() {
                 <p className="text-lg text-gray-800">We aim to grow Ridge Eye Wear & Elian Martin by DSG LifeStyle into nationally recognized eyewear fashion brands with omnichannel presence and strong consumer loyalty. Our focus on retail expansion and customer experience is shaping the future of eyewear in India.</p>
               </div>
 
-              <div className="my-12 bg-gray-50 p-8 rounded-lg">
-                <h3 className="text-center mb-6">Our Values</h3>
-                <div className="grid md:grid-cols-3 gap-6">
+              <div className="my-16 bg-gray-50 p-12 rounded-2xl shadow-lg">
+                <h3 className="text-center mb-10 text-3xl font-bold tracking-tight text-gray-900">Our Values</h3>
+                <div className="grid md:grid-cols-3 gap-10">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-2xl">🔍</span>
+                    <div className="w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <span className="text-4xl">🔍</span>
                     </div>
-                    <h4>Quality</h4>
-                    <p className="text-sm">We never compromise on the quality of our products and services.</p>
+                    <h4 className="text-xl font-semibold mb-2">Quality</h4>
+                    <p className="text-base text-gray-700">We never compromise on the quality of our products and services.</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-2xl">💡</span>
+                    <div className="w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <span className="text-4xl">💡</span>
                     </div>
-                    <h4>Innovation</h4>
-                    <p className="text-sm">
-                      We constantly seek new ways to improve and innovate in the eyewear industry.
-                    </p>
+                    <h4 className="text-xl font-semibold mb-2">Innovation</h4>
+                    <p className="text-base text-gray-700">We constantly seek new ways to improve and innovate in the eyewear industry.</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-2xl">👥</span>
+                    <div className="w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                      <span className="text-4xl">👥</span>
                     </div>
-                    <h4>Customer Focus</h4>
-                    <p className="text-sm">Our customers are at the heart of everything we do.</p>
+                    <h4 className="text-xl font-semibold mb-2">Customer Focus</h4>
+                    <p className="text-base text-gray-700">Our customers are at the heart of everything we do.</p>
                   </div>
                 </div>
               </div>
